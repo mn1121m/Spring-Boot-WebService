@@ -16,7 +16,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group 'org.example'
+group 'com.junyong.book'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -25,6 +25,8 @@ repositories {
 
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 
 }
@@ -32,3 +34,5 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+
