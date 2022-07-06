@@ -1,4 +1,4 @@
-package com.junyong.springboot.domain.posts;
+package com.mjy.springboot.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,5 +1,7 @@
-package com.junyong.springboot.domain.posts;
+package com.mjy.springboot.domain;
 
+import com.mjy.springboot.domain.posts.Posts;
+import com.mjy.springboot.domain.posts.PostsRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 
-public class PostRepositoryTest {
+public class PostsRepositoryTest {
     @Autowired
     PostsRepository postsRepository;
 
