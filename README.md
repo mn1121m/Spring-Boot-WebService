@@ -1,8 +1,7 @@
-# springboot-aws-webservice
+# Spring-Boot-WebService
 
 - 이동욱 개발자님이 지은 "스프링 부트와 AWS로 혼자 구현하는 웹 서비스" 책입니다.
 - 해당 프로젝트는 혼자서 공부하면서 개발 내용 기록 및 클론 프로젝트를 완성하는 것입니다.
-
 
 ---
 
